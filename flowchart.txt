@@ -1,0 +1,35 @@
+
+
+1. Importing the Packages required
+
+2. Loading the BART model and Tokenizer - bart-large-cnn model(LLM model)
+
+3. Function  extracting the text from image using OCR and LLM
+
+	- converting the image from text using tesseract OCR
+	- Tokenize the converted text using llm model
+	- generate the ids using llm model
+	- decoding the corrected ids using model tokenizer
+
+4. define a folder to store and using the image
+
+5. setting the specific type of image to be upload
+
+6. Flask Framework with Sqlite for signup and signin
+
+7. User uploading the image (text based or handwritten text image)
+
+8. If method is get returns to index page 
+
+9. If method is POST and then function ocr_core is used for extracting the text
+
+10. Extracted text is processed and predicted corrected text using pre-trained LLM model
+
+11. The Generated output text using LLM model will be - The original input text is “Machine Learning.” and the generated corrected text includes 
+additional text that relates to machine learning concepts. 
+
+Note : It’s important to note that the BART model’s output might not always be entirely accurate or contextually appropriate. 
+It can “hallucinate” information or produce text that is a combination of learned patterns from its training data. 
+In this case, the generated text seems to be a mix of accurate and inaccurate information related to machine learning concepts.
+
+12. Final Outcome is display
