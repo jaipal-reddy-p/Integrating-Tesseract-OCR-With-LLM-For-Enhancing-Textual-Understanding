@@ -11,8 +11,11 @@
   6. LLM
   7. Necessary Python Libraries
 
+
+
+<h3>Steps of execution</h3>
+
 <ul>
-Steps of execution
 <li>After installing all the required softwares</li>
 <li> Open CMD and copy the path of folder</li>
 <li>Run app.py in the CMD</li>
@@ -22,9 +25,11 @@ Steps of execution
 <li>After some time it will give you the extracted text and summarized text of the given image</li>
 </ul>
 
-Login details
-  User name-Admin
-  Password-Admin
+<h3>Login details</h3>
+<h4>User name-Admin</h4>
+<h4>Password-Admin</h4>
+
+
 
 <img width="959" alt="Screenshot 2024-06-19 205640" src="https://github.com/jaipal-reddy-p/Integrating-Tesseract-OCR-With-Large-Language-Models-For-Enhancing-Textual-Understanding/assets/96718212/9c6ecfac-3c6a-4d9b-836b-9b716e602fee">
 
